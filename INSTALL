@@ -1,0 +1,9 @@
+Building Dcscoin
+
+See doc/readme-qt.rst for instructions on building Dcscoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Dcscoin.
+
+See doc/build-*.txt for instructions on building dcscoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Dcscoin.

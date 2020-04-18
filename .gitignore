@@ -1,0 +1,34 @@
+src/*.exe
+src/dcscoin
+src/dcscoind
+src/test_dcscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.dcscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+dcscoin-qt
+Dcscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+dcscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
