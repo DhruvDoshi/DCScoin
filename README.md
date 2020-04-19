@@ -1,11 +1,12 @@
 Dcscoin integration/staging tree
 ================================
 
-http://www.dcscoin.org
+http://www.dcs-bbn.com
 
 
 What is Dcscoin?
 ----------------
+DCScoin is developed with help of Litecoin by using teh alorithms and base script as per the Licinece terms.
 
 Dcscoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2 minute block targets
