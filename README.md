@@ -3,23 +3,21 @@ Dcscoin integration/staging tree
 
 http://www.dcscoin.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Dcscoin Developers
 
 What is Dcscoin?
 ----------------
 
 Dcscoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+ - 2 minute block targets
+ - subsidy halves in 400k blocks (~4 years)
+ - ~40 million total coins
 
 The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 20 coins per block
+ - 2020 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Dcscoin client sofware, see http://www.dcscoin.org.
+the Dcscoin client sofware, see http://www.dcs-bbn.com.
 
 License
 -------
@@ -45,7 +43,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/dcscoin-project/dcscoin/tags) are created
+completely stable. [Tags](https://github.com/DhruvDoshi/DCScoin/tags) are created
 regularly to indicate new official, stable release versions of Dcscoin.
 
 Testing
@@ -71,7 +69,3 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     make -f Makefile.test
     ./dcscoin-qt_test
 
-# DCScoin
-# DCScoin
-# DCScoin
-# DCScoin
