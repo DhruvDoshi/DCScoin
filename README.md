@@ -1,78 +1,129 @@
-Dcscoin integration/staging tree
-================================
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
+
+<h3 align="center">DCSCOIN</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![Tweet](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Decentralized%20cloud%20storage%20@DhruvDoshi%20&url=https://github.com/DhruvDoshi/DCS_BBN)
+[![GitHub Issues](https://img.shields.io/github/issues/DhruvDoshi/DCScoin.svg)](https://github.com/DhruvDoshi/DCScoin/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/DhruvDoshi/DCScoin.svg)](https://github.com/DhruvDoshi/DCScoin/pulls)
 ![GitHub release](https://img.shields.io/github/release/DhruvDoshi/DCScoin.svg?style=popout-square)
 ![npm](https://img.shields.io/npm/dm/gitfolio.svg?style=popout-square) 
 ![GitHub top language](https://img.shields.io/github/languages/top/DhruvDoshi/DCScoin.svg?style=popout-square) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DhruvDoshi/DCScoin.svg?style=popout-square) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=popout-square)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-http://www.dcs-bbn.com
+</div>
 
+---
 
-What is Dcscoin?
-----------------
-DCScoin is developed with help of Litecoin by using teh alorithms and base script as per the Licinece terms.
+<p align="center"> Complete Cryptocurrency made with c++ and Litecoin. Used on platform named DCS-BBN.
+    <br> 
+</p>
+
+## 📝 Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name = "about"></a>
+
+This is completely new cryptocurrency named DCSCOIN 
 
 Dcscoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2 minute block targets
- - subsidy halves in 400k blocks (~4 years)
- - ~40 million total coins
+2 minute block targets
+subsidy halves in 400k blocks (~4 years)
+~40 million total coins
 
 The rest is the same as Bitcoin.
- - 20 coins per block
- - 2020 blocks to retarget difficulty
+20 coins per block
+2020 blocks to retarget difficulty
+For more information, as well as an immediately useable, binary version of the Dcscoin client sofware, see http://www.dcs-bbn.com.
 
-For more information, as well as an immediately useable, binary version of
-the Dcscoin client sofware, see http://www.dcs-bbn.com.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-License
--------
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-Dcscoin is released under the terms of the MIT license. See `COPYING` for more
-information or see http://opensource.org/licenses/MIT.
+### Prerequisites
 
-Development process
--------------------
+What things you need to install the software and how to install them.
 
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
+```
+Give examples
+```
 
-If it is a simple/trivial/non-controversial change, then one of the Dcscoin
-development team members simply pulls it.
+### Installing
 
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion with the devs and community.
+A step by step series of examples that tell you how to get a development env running.
 
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
+Say what the step will be
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/DhruvDoshi/DCScoin/tags) are created
-regularly to indicate new official, stable release versions of Dcscoin.
+```
+Give the example
+```
 
-Testing
--------
+And repeat
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
+```
+until finished
+```
 
-### Automated Testing
+End with an example of getting some data out of the system or using it for a little demo.
 
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
+## 🔧 Running the tests <a name = "tests"></a>
 
-Unit tests for the core code are in `src/test/`. To compile and run them:
+Explain how to run the automated tests for this system.
 
-    cd src; make -f makefile.unix test
+### Break down into end to end tests
 
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
+Explain what these tests test and why
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./dcscoin-qt_test
+```
+Give an example
+```
 
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+Add notes about how to use the system.
+
+## 🚀 Deployment <a name = "deployment"></a>
+
+Add additional notes about how to deploy this on a live system.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
