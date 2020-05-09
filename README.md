@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![Tweet](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Decentralized%20cloud%20storage%20@DhruvDoshi%20&url=https://github.com/DhruvDoshi/DCS_BBN)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/DhruvDoshi/DCScoin.svg)](https://github.com/DhruvDoshi/DCScoin/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/DhruvDoshi/DCScoin.svg)](https://github.com/DhruvDoshi/DCScoin/pulls)
 ![GitHub release](https://img.shields.io/github/release/DhruvDoshi/DCScoin.svg?style=popout-square)
