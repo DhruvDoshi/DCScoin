@@ -80,9 +80,7 @@ install/ Makefile
 
 This is completely new crypto currency with its own ecosystem containing maining and ICO developmene
 
-## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
