@@ -42,9 +42,9 @@
 This is completely new cryptocurrency named DCSCOIN 
 
 Dcscoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
-2 minute block targets
-subsidy halves in 400k blocks (~4 years)
-~40 million total coins
+    2 minute block targets
+    subsidy halves in 400k blocks (~4 years)
+    ~40 million total coins
 
 The rest is the same as Bitcoin.
 20 coins per block
